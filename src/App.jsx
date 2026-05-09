@@ -6,6 +6,7 @@ import Service from './assets/Components/Service/Service'
 import Latest from './assets/Components/Latest/Latest'
 import Project from './assets/Components/Project/Project'
 import Business from './assets/Components/Business/Business'
+import Client from './assets/Components/Client/Client'
 
 
 const App = () => {
@@ -18,7 +19,8 @@ const App = () => {
         <Service />
         <Latest />
         <Project />
-      <Business/>
+        <Business />
+        <Client/>
       </div>
       
     </>
